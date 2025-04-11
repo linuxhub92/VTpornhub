@@ -309,7 +309,7 @@ v5:Destroy();
 --         pcall(v422);
 --     end
 -- end);
-local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Config-v14/main/Main.lua"))();
+local v14 = loadstring(game:HttpGet("https://pastefy.app/ACOX6D6h/raw"))();
 local v15 = v14:CreateWindow({
     TabWidth = 160,
     Theme = "Dark",
