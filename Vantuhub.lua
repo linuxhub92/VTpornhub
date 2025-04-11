@@ -1,7 +1,6 @@
 -- discord.gg/tboyroblox
 
 
-shared.LoaderTitle = "Đăng Ký Kênh VTPornHub";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -311,10 +310,8 @@ v5:Destroy();
 --         pcall(v422);
 --     end
 -- end);
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Config-Library/main/Main.lua"))();
-local v15 = Library:CreateWindow({
-    Title = "VTPornHub Hub",
-    SubTitle = "Blox Fruit",
+local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Config-v14/main/Main.lua"))();
+local v15 = v14:CreateWindow({
     TabWidth = 160,
     Theme = "Dark",
     Acrylic = false,
@@ -368,7 +365,7 @@ local v16 = {
         Title = "Khác"
     })
 };
-local v17 = Library.Options;
+local v17 = v14.Options;
 local v18 = game.PlaceId;
 if (v18 == 2753915549) then
     Sea1 = true;
