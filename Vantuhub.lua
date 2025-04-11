@@ -312,7 +312,7 @@ v5:Destroy();
 --     end
 -- end);
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Config-Library/main/Main.lua"))();
-local v15 = v14:CreateWindow({
+local v15 = Library:CreateWindow({
     Title = "VTPornHub Hub",
     SubTitle = "Blox Fruit",
     TabWidth = 160,
@@ -368,7 +368,7 @@ local v16 = {
         Title = "Khác"
     })
 };
-local v17 = v14.Options;
+local v17 = Library.Options;
 local v18 = game.PlaceId;
 if (v18 == 2753915549) then
     Sea1 = true;
